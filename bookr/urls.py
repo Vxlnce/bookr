@@ -20,4 +20,5 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', reviews.views.index),
+    path('book-search/', reviews.views.search_results)
 ]
